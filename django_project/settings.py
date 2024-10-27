@@ -40,11 +40,12 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # 3rd Party
-    "crispy_forms",  # new
-    "crispy_bootstrap5",  # new
+    "crispy_forms",
+    "crispy_bootstrap5",
     # Local files
     "accounts",
     "pages",
+    "articles",  # newly added
 ]
 
 MIDDLEWARE = [
@@ -113,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "America/New_York"  # changed from UTC
 
 USE_I18N = True
 
